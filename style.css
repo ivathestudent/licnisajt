@@ -22,13 +22,13 @@ body {
     display: flex;
     gap: 6px;
     flex-wrap: wrap;
-    margin-bottom: -1px; /* spaja tabove sa sadržajem */
+    margin-bottom: -1px; 
     justify-content: flex-start;
 }
 
 .tab-btn {
     padding: 10px 20px;
-    background: #A28C74;  /* neaktivni svetlija braon */
+    background: #A28C74;  
     border: 1px solid #ccc;
     border-bottom: none;
     border-radius: 12px 12px 0 0;
@@ -39,9 +39,9 @@ body {
 }
 
 .tab-btn.active {
-    background: #f5f0ec;  /* pastelna kartica */
-    color: #000;           /* crni tekst */
-    border-bottom: 1px solid #f5f0ec; /* spaja se sa karticom */
+    background: #f5f0ec;  
+    color: #000;        
+    border-bottom: 1px solid #f5f0ec;
 }
 
 .tab-btn:hover {
@@ -120,7 +120,7 @@ body {
     font-weight: 600;
 }
 
-/* ================= KARTICE VEŽBI ================= */
+/* ================= KARTICE VEŽBI ========= */
 .card {
     background: #f5f0ec;
     border: 1px solid #ddd;
@@ -142,7 +142,7 @@ body {
     color: #333;
 }
 
-/* ================= VEŽBE - GRID 3x2 ================= */
+/* ================= VEŽBE - MREŽA 3x2 ================= */
 .project-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -150,7 +150,7 @@ body {
     margin-top: 20px;
 }
 
-/* ================= BUTTONI VEŽBI ================= */
+/* ========== BUTTONI VEŽBI ============= */
 .project-btn {
     display: inline-block;
     padding: 10px 20px;
@@ -235,7 +235,7 @@ body {
     z-index: 10;
 }
 
-/* ================= LINK BUTTONI ZA MAPE, KONFERENCIJU, VIDEO ================= */
+/* ================= LINK BUTTONI ZA MAPE, KONFERENCIJU ================= */
 .link-btn {
     display: inline-block;
     padding: 8px 16px;
@@ -300,4 +300,5 @@ body {
     background: #a64bf4;
     transform: translateY(-3px);
 }
+
 
