@@ -14,7 +14,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
-    padding: 20px;
+    padding: 50px;
 }
 
 /* ================= TABOVI ================= */
@@ -280,7 +280,7 @@ body {
 .video-container {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 /* ================= VELIKI LJUBIČASTI BUTTON ZA GOOGLE ANKETU ================= */
@@ -300,5 +300,6 @@ body {
     background: #a64bf4;
     transform: translateY(-3px);
 }
+
 
 
