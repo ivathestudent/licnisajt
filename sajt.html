@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <title>Moj Digitalni Portal</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1>Moj Digitalni Portal</h1>
+
+    <!-- TAB BUTTONI -->
+    <div class="tab-buttons">
+        <button class="tab-btn active" data-tab="about">O meni</button>
+        <button class="tab-btn" data-tab="homework">Domaći zadaci</button>
+        <button class="tab-btn" data-tab="mindmaps">Mape uma</button>
+        <button class="tab-btn" data-tab="conference">Organizacija konferencije</button>
+        <button class="tab-btn" data-tab="survey">Google anketa</button>
+        <button class="tab-btn" data-tab="video">Video predstavljanje</button>
+    </div>
+
+    <!-- TAB CONTENT -->
+
+    <!-- 1 O MENI -->
+    <div class="tab-content active" id="about">
+        <div class="about-wrapper">
+
+            <!-- levo-->
+            <div class="about-left">
+                <p>Ime i prezime: <b>Ivana Tešić</b></p>
+		<p>Fakultet: <b>FTN u Čačku</b></p>
+                <p>Studijski program: <b>Informacione tehnologije</b></p>
+		<p>Godina studija: <b>prva</b></p>
+
+                <img src="https://lh3.googleusercontent.com/d/1qtaBVYbxdu0FpQbPp1z3LL2Zmcnw8kMN"
+     alt="Moja slika"
+     class="about-img">
+
+            </div>
+
+            <!-- desno -->
+            <div class="about-right">
+                <div class="info-card">
+                    <span class="info-title">Profesionalna interesovanja</span>
+                    <p>Grafički dizajn | Sajberbezbednost</p>
+                </div>
+
+                <div class="info-card">
+                    <span class="info-title">Hobiji</span>
+                    <p>Muzika | Tenis | Šivenje</p>
+                </div>
+
+                <div class="info-card">
+                    <span class="info-title">Ciljevi na studijama</span>
+                    <p>Osnovne → Master | Druge oblasti</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 2. DOMAĆI ZADACI -->
+    <div class="tab-content" id="homework">
+        <h2>Vežbe DPK</h2>
+        <div class="project-grid">
+            <div class="card">
+                <a href="https://drive.google.com/drive/folders/1Z8EUgpetvtJgS0HBVon6CGhTnU0RnFJ-?usp=drive_link" target="_blank" class="project-btn btn1" data-tooltip="Klikni za više informacija">Vežba 1</a>
+                <p>Ovde ćete zapravo naići na prazan folder, jer je zadatak bio napraviti svoj jedinstveni g-mejl nelog za ovaj predmet, pristupiti Google Drive-u upravo tim nalogom i kreirati ovaj folder.</p>
+            </div>
+            <div class="card">
+                <a href="https://drive.google.com/drive/folders/1GT7Y9f7Hs3Ex4ZkxYelQJ1A6gONW3Z_I?usp=drive_link" target="_blank" class="project-btn btn2" data-tooltip="Klikni za više informacija">Vežba 2</a>
+                <p>U ovoj vežbi zadatak je bio pokazati najosnovnije veštine Microsoft Word-a i Excel-a, predstavila sam svoj grad (Kosjerić) i šemu svog nedeljnog rasporeda časova.</p>
+            </div>
+            <div class="card">
+                <a href="https://drive.google.com/drive/folders/1O6JQp_dXjhYa_rbMaswnPkkybZ7yC0Zv?usp=sharing" target="_blank" class="project-btn btn3" data-tooltip="Klikni za više informacija">Vežba 3</a>
+                <p>Vežba 3 nas uvodi u korišćenje Canva programa. U zadatku smo odabrali proizvod (moj je bio Raffaello kuglica) i za njega smo pravili poster i Carousel grafiku.</p>
+                <a href="https://www.canva.com/design/DAG5u48A34U/VlNskpzR4LTM72JinJ_0SA/edit" target="_blank" class="canva-btn" data-tooltip="Vidi poster na canva.com">Poster</a>
+		<a href="https://www.canva.com/design/DAG5v1TFtmA/Taxbtzg4A5r0nzf6zMFrQw/edit" target="_blank" class="canva-btn" data-tooltip="Vidi carousel na canva.com">Carousel</a>
+            </div>
+            <div class="card">
+                <a href="https://drive.google.com/drive/folders/1n5PxL5brqiHrPut-fWBs8u1ZODgZMS5f?usp=drive_link" target="_blank" class="project-btn btn4" data-tooltip="Klikni za više informacija">Vežba 4</a>
+                <p>U četvrtoj vežbi smo za odabrani proizvod pravili gif i reklamni video takođe u Canva programu.</p>
+                <a href="https://www.canva.com/design/DAG6v8Xz7nM/4C9cztyq7ni4EEItkr8gxA/edit" target="_blank" class="canva-btn" data-tooltip="Vidi gif na canva.com">GIF</a>
+		<a href="https://https://www.canva.com/design/DAG6vmrB6mA/KR21qDAQt0bjcHfKimVnNw/edit" target="_blank" class="canva-btn" data-tooltip="Vidi video na canva.com">Video</a>
+            </div>
+            <div class="card">
+                <a href="https://drive.google.com/drive/folders/1erYx1wbdJNTmg_zv_vsrJ2hQEUOt9I4-?usp=drive_link" target="_blank" class="project-btn btn5" data-tooltip="Klikni za više informacija">Vežba 5</a>
+                <p>Vežba 5 je za zadatak imala da iskoristimo Tabelau program da na razne načine interpretiramo podatke iz tabele koja nam je data.</p>
+                <a href="https://prod-ch-a.online.tableau.com/#/site/1762025ftncacak-d5067c2035/projects/86399?:origin=card_share_link" target="_blank" class="tableau-btn" data-tooltip="Vidi workbook na tableau.com">Tableau</a>
+            </div>
+            <div class="card">
+                <a href="https://drive.google.com/drive/folders/1Zvh2Ab3H-ig9moWlZ4toxcNSf3uwx911?usp=drive_link" target="_blank" class="project-btn btn6" data-tooltip="Klikni za više informacija">Vežba 6</a>
+                <p>U okviru ove vežbe 6 (koju ja nisam predala na vreme) smo trebali da demonstriramo svoje veštine u OBS sudio programu i da snimimo video za naš izabrani proizvod.</p>
+            </div>
+        </div>
+    </div>
+
+    <!------- 3 MAPE UMA ------>
+    <div class="tab-content" id="mindmaps">
+        <div class="card">
+            <h3>Mapa proizvoda</h3>
+            <a href="https://drive.google.com/file/d/1aCBiMU-jhspGSQzMsJMJatSHEe01asMx/view?usp=drive_link" target="_blank" class="link-btn">Pogledaj mapu</a>
+        </div>
+        <div class="card">
+            <h3>Mapa sada_176/2025</h3>
+            <a href="https://drive.google.com/file/d/11ImFKftDJr6tfsXcJQrSO4AIXyM2V3CK/view?usp=drive_link" target="_blank" class="link-btn">Pogledaj mapu</a>
+        </div>
+        <div class="card">
+            <h3>Mapa posle_176/2025</h3>
+            <a href="https://drive.google.com/file/d/18TRNvEFo3cSj3hJz8pA-PthTdcNwEq0k/view?usp=sharing" target="_blank" class="link-btn">Pogledaj mapu</a>
+        </div>
+    </div>
+
+    <!-- 4 KONFERENCIJA -->
+    <div class="tab-content" id="conference">
+    <div class="card">
+	<h2>Da sam ja...</h2>
+		<p>    <i>...IT stručnjak</i><br><br><br></p>
+        <div class="conference-item">
+            <h3>Word</h3>
+            <a href="https://docs.google.com/document/d/1A6Tf4FTFLtCuUb1usSiOMBfS37-xw9I_/edit?usp=drive_link&ouid=103842253025846974126&rtpof=true&sd=true" target="_blank" class="link-btn">
+                Pogledaj
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1A6Tf4FTFLtCuUb1usSiOMBfS37-xw9I_
+" class="download-btn">
+                ⬇ Preuzmi
+            </a>
+        </div>
+
+        <div class="conference-item">
+            <h3>Visio plan prostora</h3>
+            <a href="https://ftncacak-my.sharepoint.com/:u:/g/personal/176-2025_ftn_edu_rs/IQBUIC1aT4WRQpwggwq6v1yGAbATzprUcPNdRzJv5OPpsv0?e=ELV2Jz" target="_blank" class="link-btn">
+                Pogledaj
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1sb5uRLvrTwF0FgsqtdQ3tDd9IMsOhrER
+" class="download-btn">
+                ⬇ Preuzmi
+            </a>
+        </div>
+
+        <div class="conference-item">
+            <h3>Visio mapa uma</h3>
+            <a href="https://ftncacak-my.sharepoint.com/:u:/g/personal/176-2025_ftn_edu_rs/IQBGrwhQjETNR40spk_TIuczAce4yDRvBOygZapawY5sJmc?e=bHDERd" target="_blank" class="link-btn">
+                Pogledaj
+            </a>
+            <a href="https://drive.google.com/uc?export=download&id=1BqZ_JcaFUikt_f9Wts7ee33mhNrwZBK6
+" class="download-btn">
+                ⬇ Preuzmi
+            </a>
+        </div>
+
+    </div>
+    </div>
+
+
+    <!-------+- 5. GOOGLE ANKETA ------>
+    <div class="tab-content" id="survey">
+        <div class="card">
+            <h3>Google anketa</h3>
+            <p>Ovo je anketa gde ispitujemo kako kupci vide proizvod, koja su njihova lična mišljenja, da li se proizvod na tržištu kotira kao što je planirano i da potencijalno dobijemo nove predloge i ideje.<br><br><br></p>
+            <a href="https://forms.gle/qwT5PqbKv6snvt1YA" target="_blank" class="survey-btn">Popuni anketu</a>
+        </div>
+    </div>
+
+    <!-- 6 VIDEO PREDSTAVLJANJE -->
+    <div class="tab-content" id="video">
+        <div class="card">
+            <h3>Video predstavljanje</h3>
+            <p>Video portal – prikaz ili link ka videu</p>
+		<button class="video-btn">
+    ▶ Pogledaj video
+</button>
+            <a href="OVDE_LINK_VIDEO" target="_blank" class="link-btn">Pogledaj video</a>
+        </div>
+    </div>
+
+    <!-- java script by chatgpt -->
+    <script>
+        const tabs = document.querySelectorAll('.tab-btn');
+        const contents = document.querySelectorAll('.tab-content');
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                tabs.forEach(t => t.classList.remove('active'));
+                contents.forEach(c => c.classList.remove('active'));
+                tab.classList.add('active');
+                document.getElementById(tab.dataset.tab).classList.add('active');
+            });
+        });
+    </script>
+
+</body>
+</html>
