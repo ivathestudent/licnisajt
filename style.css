@@ -276,6 +276,12 @@ body {
     transform: translateY(-2px);
 }
 
+/*-------videeo-------*/
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
 
 /* ================= VELIKI LJUBIČASTI BUTTON ZA GOOGLE ANKETU ================= */
 .survey-btn {
@@ -294,3 +300,4 @@ body {
     background: #a64bf4;
     transform: translateY(-3px);
 }
+
